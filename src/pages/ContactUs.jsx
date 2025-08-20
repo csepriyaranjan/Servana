@@ -48,7 +48,7 @@ export default function Contact() {
     setLoading(true);
 
     try {
-      const response = await axios.post(`${import.meta.env.VITE_API_URL}contact`, formData);
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/contact`, formData);
 
       if (response.status === 200) {
         handlerSuccess("Message sent successfully!");
