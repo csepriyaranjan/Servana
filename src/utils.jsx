@@ -54,3 +54,7 @@ export const handlerError = (msg) => {
     }
   );
 };
+
+export const scrolltop =()=>{
+  window.screenTop({top:0,behavior:"smooth"});
+};
