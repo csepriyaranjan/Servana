@@ -3,32 +3,48 @@ import React, { useState } from "react";
 export default function Support() {
   // List of FAQs
   const faqs = [
-    {
-      question: "How do I get started with your services?",
-      answer:
-        "You can get started by signing up, following the setup guide in Documentation, and exploring our tutorials."
-    },
-    {
-      question: "How can I contact support?",
-      answer:
-        "Reach out via our contact form, email, or live chat. We respond promptly to all queries."
-    },
-    {
-      question: "Where can I find tutorials?",
-      answer:
-        "Tutorials are available in the Documentation section, covering basic to advanced use cases."
-    },
-    {
-      question: "Do you offer community support?",
-      answer:
-        "Yes! You can engage with other users, ask questions, and share knowledge in our Community Forum."
-    },
-    {
-      question: "How do I reset my password?",
-      answer:
-        "Click on 'Forgot Password' on the login page and follow the instructions to reset your password."
-    }
-  ];
+  {
+    question: "What services does Servana offer?",
+    answer:
+      "Servana provides a range of services including web development,App development and cloud-based solutions. Each service is designed to meet the unique needs of our clients, ensuring quality and efficiency."
+  },
+  {
+    question: "How can I get started with Servana?",
+    answer:
+      "Getting started is easy! Simply contact our team, and our experts will guide you through the process step by step."
+  },
+  {
+    question: "What makes Servana different from other service providers?",
+    answer:
+      "At Servana, we prioritize personalized service, cutting-edge technology, and customer satisfaction. Our tailored solutions ensure that each client’s specific goals are achieved effectively."
+  },
+  {
+    question: "Is there a contract required to use Servana's services?",
+    answer:
+      "No, we offer flexible service agreements to suit your needs. Whether you require a one-time project or ongoing support, we can customize a plan that works for you."
+  },
+  {
+    question: "How can I contact Servana for support?",
+    answer:
+      "You can reach our support team via email, phone. Our dedicated team is available to assist you with any inquiries or issues."
+  },
+  {
+    question: "What industries does Servana serve?",
+    answer:
+      "Servana caters to diverse industries including healthcare, education, retail, and technology. Our adaptable solutions make us suitable for a wide range of sectors."
+  },
+  {
+    question: "Are there any testimonials or case studies available?",
+    answer:
+      "Yes! We provide client testimonials and detailed case studies that showcase how we’ve successfully helped businesses achieve their goals."
+  },
+  {
+    question: "What are the pricing options for Servana's services?",
+    answer:
+      "Our pricing is transparent and competitive. The cost varies depending on the services you need, and we provide detailed quotes after assessing your requirements."
+  }
+];
+
 
   // State to track which FAQ is open
   const [openIndex, setOpenIndex] = useState(null);
@@ -45,14 +61,14 @@ export default function Support() {
           Find answers to common questions below. Click on a question to view the answer.
         </p>
 
-        <div className="text-left md:text-center space-y-4">
+        <div className="text-left space-y-4">
           {faqs.map((faq, index) => (
             <div
               key={index}
               className="border rounded-lg p-4 cursor-pointer hover:shadow-md transition-shadow"
               onClick={() => toggleFAQ(index)}
             >
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between">
                 <h2 className="text-xl font-semibold">{faq.question}</h2>
                 <span className="text-2xl font-bold">
                   {openIndex === index ? "−" : "+"}
