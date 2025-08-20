@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa"; 
 import { Link } from "react-router-dom";
+import { scrolltop } from "../utils";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -88,7 +89,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 {section.links.map((link) => (
                   <li key={link}>
-                    <Link
+                    <Link onClick={()=>{if(window.location.pathname==="/services" || `/${link.toLowerCase().replace(/\s+/g, "")}`) scrolltop()}}
                       to={
                         section.title.toLowerCase() === "services"
                           ? "/services"
