@@ -53,7 +53,7 @@ export default function About() {
         twitter: "#",
         portfolio: "#"
       }
-    }
+    },
     {
       name: "Vishal Kumar",
       role: "BDM",
