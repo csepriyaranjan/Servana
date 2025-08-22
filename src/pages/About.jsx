@@ -46,9 +46,21 @@ export default function About() {
       name: "Saroj Kumar",
       role: "COO",
       quote: "Operational excellence that empower teams and accelerate innovation.",
-      avatar: "https://avatars.githubusercontent.com/u/200264803?v=4",
+      avatar: "https://i.ibb.co/zTchWM8d/Whats-App-Image-2025-08-22-at-20-58-14-4250374d.jpg",
       socials: {
         github: "https://github.com/sarojkumar419",
+        linkedin: "#",
+        twitter: "#",
+        portfolio: "#"
+      }
+    }
+    {
+      name: "Vishal Kumar",
+      role: "BDM",
+      quote: "Driving strategic growth and building lasting client relationships to scale success.",
+      avatar: "https://i.ibb.co/gbMCYxP6/Screenshot-2025-08-23-000747.png",
+      socials: {
+        github: "#",
         linkedin: "#",
         twitter: "#",
         portfolio: "#"
@@ -110,7 +122,7 @@ export default function About() {
           <p className="mt-4 text-gray-600">Meet the leaders driving our vision and innovation.</p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {team.map((member, index) => (
             <div key={index} className="bg-white rounded-xl p-8 shadow-sm border border-gray-100 text-center">
               <img 
