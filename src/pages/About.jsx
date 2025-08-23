@@ -15,7 +15,7 @@ export default function About() {
         github: "https://github.com/csevipinmenon",
         linkedin: "https://www.linkedin.com/in/vipin-kumar-04581431a/",
         twitter: "https://x.com/VMemon49238?t=J8UdyXfRgYBRev-hew0pSA&s=08",
-        portfolio: "https://vipin-portfolio-mu.vercel.app/"
+        portfolio: "https://vipinkumar.vercel.app/"
       }
     },
     {
