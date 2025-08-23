@@ -16,7 +16,7 @@ export default function TestimonialsSection() {
     {
       quote: "They understand both startup urgency and enterprise requirements. Rare combination of speed and quality.",
       author: "Mr. Hitesh Choudhary",
-      title: "X Founder LCO",
+      title: "X Founder,LCO",
       avatar: "https://images.pexels.com/photos/18264716/pexels-photo-18264716.jpeg"
     }
   ];
