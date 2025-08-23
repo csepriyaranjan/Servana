@@ -46,22 +46,22 @@ export default function About() {
       name: "Saroj Kumar",
       role: "COO",
       quote: "Operational excellence that empower teams and accelerate innovation.",
-      avatar: "https://i.ibb.co/zTchWM8d/Whats-App-Image-2025-08-22-at-20-58-14-4250374d.jpg",
+      avatar: "https://avatars.githubusercontent.com/u/200264803?v=4",
       socials: {
         github: "https://github.com/sarojkumar419",
         linkedin: "#",
-        twitter: "#",
+        twitter: "https://x.com/saroj0793202?t=a0JsaoEs897WrkyKfvtvJw&s=08",
         portfolio: "#"
       }
     },
     {
-      name: "Vishal Kumar",
+      name: "Vishal Arya",
       role: "BDM",
       quote: "Driving strategic growth and building lasting client relationships to scale success.",
       avatar: "https://i.ibb.co/gbMCYxP6/Screenshot-2025-08-23-000747.png",
       socials: {
-        github: "#",
-        linkedin: "#",
+        github: "https://github.com/VishalAarya89",
+        linkedin: "https://www.linkedin.com/in/vishal-kumar-69132a22a/",
         twitter: "#",
         portfolio: "#"
       }
