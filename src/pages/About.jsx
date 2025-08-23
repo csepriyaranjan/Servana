@@ -73,7 +73,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4">About Us</h2>
+          <h2 className="text-4xl mt-4 font-bold mb-4">About Us</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             We are passionate about building scalable, user-friendly, and
             innovative digital solutions that empower businesses and delight
