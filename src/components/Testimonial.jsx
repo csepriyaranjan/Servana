@@ -9,15 +9,15 @@ export default function TestimonialsSection() {
     },
     {
       quote: "Working with Servana felt like having an in-house enterprise team. Professional, reliable, and incredibly skilled.",
-      author: "Vipin",
-      title: "Founder, JepairBazaar",
+      author: "Vipin Kumar",
+      title: "Founder, Jepair Bazaar",
       avatar: "/vipin.jpg"
     },
     {
       quote: "They understand both startup urgency and enterprise requirements. Rare combination of speed and quality.",
-      author: "Gaurav Tejpal",
-      title: "Principal, AGC Amritsar",
-      avatar: "https://media.licdn.com/dms/image/v2/C4E03AQH_KtC0mRbCMg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517762996367?e=1758758400&v=beta&t=pvgnmanOmkVRYjc8YJtwGBFUMyF0628VR897XHvOrBc"
+      author: "Mr. Hitesh Choudhary",
+      title: "X Founder LCO",
+      avatar: "https://images.pexels.com/photos/18264716/pexels-photo-18264716.jpeg"
     }
   ];
 
